@@ -12,8 +12,8 @@ import edu.grinnell.csc207.util.IOUtils;
  * PITA for I/O.)
  *
  * @author Samuel A. Rebelsky
- * @author Your Name Here
- * @author Your Name Here
+ * @author Princess Alexander
+ * @author Moise Milenge
  */
 public class ReadIntExperiment {
   /**
