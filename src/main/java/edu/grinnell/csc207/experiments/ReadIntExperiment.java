@@ -1,10 +1,11 @@
 package edu.grinnell.csc207.experiments;
 
-import edu.grinnell.csc207.util.IOUtils;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
+
+import edu.grinnell.csc207.util.IOUtils;
+
 
 /**
  * A simple experiment to see whether readInt works. (Unit tests are a

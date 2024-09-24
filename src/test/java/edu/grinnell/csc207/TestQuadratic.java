@@ -1,11 +1,9 @@
 package edu.grinnell.csc207;
 
-import edu.grinnell.csc207.util.Quadratic;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.fail;
-
 import org.junit.jupiter.api.Test;
+
+import edu.grinnell.csc207.util.Quadratic;
 
 /**
  * Tests of the Quadratic class.
@@ -34,5 +32,15 @@ public class TestQuadratic {
     assertEquals(0, (new Quadratic(1, -3, 0)).smallerRoot(), 0.001,
         "The smaller root of x^2 - 3x is 0");
   } // testRootsNoC()
+
+  // /**
+  //  * Test if user enters 4
+  //  */
+  // @Test
+  // public void main() {
+  //   assertEquals(4, (new IOUtils.readInt()))
+
+  // }
+
 
 } // class TestQuadratic
